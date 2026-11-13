@@ -1,37 +1,32 @@
-# 🔍 HighlighterTXT | Text Annotation & Local Encryption Tool
-### Desktop Utility for Log Review and Secure Local Data Handling
+# 🔍 HighlighterTXT | Secure Log Annotation Engine
 
-<p align="left">
-  <img src="https://img.shields.io/badge/Status-Personal_Project-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Security-AES--256--GCM-red?style=for-the-badge" />
-</p>
+![Status](https://img.shields.io/badge/Status-Architectural_Case_Study-black?style=for-the-badge)
+![Security](https://img.shields.io/badge/Encryption-AES--256--GCM-darkred?style=for-the-badge)
+![Framework](https://img.shields.io/badge/Built_with-Electron-191970?style=for-the-badge&logo=Electron&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows_x64-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
-**HighlighterTXT** is a personal offline desktop project built to practice text annotation workflows, local data handling, and applied encryption. It turns raw text/log files into an organized, annotated workspace.
+> **Note:** This repository serves as an architectural case study and portfolio showcase. The source code is maintained privately (Closed Source) for security and personal use. The provided binaries in the Releases tab are for demonstration purposes.
 
----
+HighlighterTXT is an offline-first desktop application designed for secure log review, text annotation, and applied local cryptography. It transforms raw data and text files into an organized, heavily encrypted local workspace.
 
-### 🚀 Core Features
+## 🚀 System Architecture & Core Features
 
-#### 🟢 Annotation Engine
-* **Real-time Annotations:** Multi-color highlighting for log analysis and pattern discovery.
-* **Metadata Layering:** Attach tags and persistent notes to specific lines without altering the raw source.
-* **Navigation Dock:** Summary panel for quick jumping between annotated points.
-* **PDF Export:** Convert annotated workspaces into formatted PDF reports.
+### 🟢 Annotation & Log Analysis Engine
+*   **Real-time Threat/Pattern Tagging:** Multi-color highlighting specifically designed for log analysis and rapid pattern discovery.
+*   **Metadata Layering:** Attach custom tags and persistent notes (including visual emoji markers) to specific strings without altering the raw source file.
+*   **Navigation Dock:** Summary panel allowing instant traversal between flagged anomalies or annotated points.
+*   **Report Compilation:** Automated conversion of annotated workspaces into clean, formatted PDF reports.
 
-#### 🛡️ Local Encryption Experiment
-* **Custom `.hxt` Format:** AES-256-GCM encryption to practice securing sensitive local files.
-* **Workspace Lock:** Manual UI lock (Ctrl+Alt+L) with password verification.
-* **Idle Auto-Lock:** Session lock after configurable inactivity.
-* **Fully Offline:** No cloud sync, no tracking — everything runs locally.
+### 🛡️ Applied Cryptography & Local Security
+*   **Custom `.hxt` Payload Format:** Implementation of **AES-256-GCM** encryption to secure sensitive local files against unauthorized access or tampering.
+*   **Manual Workspace Lock:** Hardware-level UI lock trigger (`Ctrl+Alt+L`) requiring password verification to resume the session.
+*   **Idle Auto-Lock:** Configurable timeout terminating the active session after periods of inactivity.
+*   **Air-Gapped Design:** Zero telemetry, zero cloud synchronization. Operates strictly in an offline, local-first environment.
 
----
+## 📥 Deployment
 
-### 📥 Try It
-
-1. Check the [Releases](../../releases) tab.
-2. Run `HighlighterTXT_Setup.exe`.
+Check the **Releases** tab to download the compiled `.exe`.
+*Run `HighlighterTXT_Setup.exe` (Administrator privileges may be required depending on local security policies).*
 
 ---
-
-**Built by [GT0u Labs](https://github.com/GT0u-labs)** — a personal project to practice Electron development, local-first data handling, and applied encryption.
+*Architected and maintained by [GT0u Labs](https://gt0u-labs.github.io).*
